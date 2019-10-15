@@ -1,0 +1,19 @@
+# 1，普通配置
+server.port=9090
+# 随机端口配置
+#server.port=${random.int[1024,9999]}
+
+# 2，自定义属性配置
+twf.msg="hello,spring boot!"
+
+# 3，配置变量的引用
+twf.param1=hello,white cloud
+twf.param2=hello,blue sky,${twf.param1}
+
+# 4，随机值配置
+twf.number=${random.int}
+twf.param3=random number is ${twf.number}
+
+spring.boot.admin.url=http://127.0.0.1:8090
+
+management.security.enabled=false

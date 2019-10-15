@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ca498687-fc23-4a3c-b814-1e6b691921db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/e-book/commons/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/commons/src/main/java/com/twf/commons/HttpClientUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-client-bus/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-client-bus/src/main/java/com/twf/config/client/bus/ConfigClientRefreshBusApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-client-bus/src/main/java/com/twf/config/client/bus/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-client-bus/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-client-bus/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-client-bus2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-client-bus2/src/main/java/com/twf/config/client/bus2/ConfigClientRefreshBus2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-client-bus2/src/main/java/com/twf/config/client/bus2/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-client-bus2/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-client-bus2/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-client-refresh/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-client-refresh/src/main/java/com/twf/config/client/refresh/ConfigClientRefreshApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-client-refresh/src/main/java/com/twf/config/client/refresh/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-client-refresh/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-client-refresh/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-client/src/main/java/com/twf/config/client/ConfigClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-client/src/main/java/com/twf/config/client/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-client/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-client/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-encrypt-rsa-product-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-encrypt-rsa-product-core/src/main/java/com/twf/config/encrypt/rsa/product/core/ConfigEncryptRsaProductCoreApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-encrypt-rsa-product-core/src/main/java/com/twf/config/encrypt/rsa/product/core/facade/ProductFacadeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-encrypt-rsa-product-core/src/main/java/com/twf/config/encrypt/rsa/product/core/persistence/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-encrypt-rsa-product-core/src/main/java/com/twf/config/encrypt/rsa/product/core/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-encrypt-rsa-product-core/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-encrypt-rsa-product-core/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-encrypt-rsa-product-core/src/main/resources/mybatis/com/twf/book/product/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-encrypt-security-product-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-encrypt-security-product-core/src/main/java/com/twf/config/encrypt/security/product/core/ConfigEncryptSecurityProductCoreApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-encrypt-security-product-core/src/main/java/com/twf/config/encrypt/security/product/core/facade/ProductFacadeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-encrypt-security-product-core/src/main/java/com/twf/config/encrypt/security/product/core/persistence/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-encrypt-security-product-core/src/main/java/com/twf/config/encrypt/security/product/core/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-encrypt-security-product-core/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-encrypt-security-product-core/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-encrypt-security-product-core/src/main/resources/mybatis/com/twf/book/product/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-encrypt-symmetric-product-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-encrypt-symmetric-product-core/src/main/java/com/twf/config/encrypt/symmetric/product/core/ConfigEncryptSymmetricProductCoreApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-encrypt-symmetric-product-core/src/main/java/com/twf/config/encrypt/symmetric/product/core/facade/ProductFacadeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-encrypt-symmetric-product-core/src/main/java/com/twf/config/encrypt/symmetric/product/core/persistence/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-encrypt-symmetric-product-core/src/main/java/com/twf/config/encrypt/symmetric/product/core/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-encrypt-symmetric-product-core/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-encrypt-symmetric-product-core/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-encrypt-symmetric-product-core/src/main/resources/mybatis/com/twf/book/product/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-server-bus/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-server-bus/src/main/java/com/twf/config/server/bus/ConfigServerBusApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-server-bus/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-server-bus/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-server-encrypt-rsa/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-server-encrypt-rsa/src/main/java/com/twf/config/server/encrypt/rsa/ConfigServerEncryptRsaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-server-encrypt-rsa/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-server-encrypt-rsa/src/main/resources/encrypt-info.keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-server-encrypt-rsa/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-server-encrypt-security/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-server-encrypt-security/src/main/java/com/twf/config/server/encrypt/security/ConfigServerEncryptSecurityApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-server-encrypt-security/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-server-encrypt-security/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-server-encrypt-symmetric/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-server-encrypt-symmetric/src/main/java/com/twf/config/server/encrypt/symmetric/ConfigServerEncryptSymmetricApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-server-encrypt-symmetric/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-server-encrypt-symmetric/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-server/src/main/java/com/twf/config/server/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/config-server/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer-order/db/book-order.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer-order/db/book-product.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer-order/db/book-trader.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer-order/db/book-user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer-order/src/main/java/com/twf/e/book/consumer/order/ConsumerOrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer-order/src/main/java/com/twf/e/book/consumer/order/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer-order/src/main/java/com/twf/e/book/consumer/order/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer-order/src/main/java/com/twf/e/book/consumer/order/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer-order/src/main/java/com/twf/e/book/consumer/order/service/TradeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer-order/src/main/java/com/twf/e/book/consumer/order/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer-order/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer-order/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-feign-httpclient/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-feign-httpclient/src/main/java/com/twf/e/book/consumer/feign/httpclient/ConsumerFeignHttpclientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-feign-httpclient/src/main/java/com/twf/e/book/consumer/feign/httpclient/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-feign-httpclient/src/main/java/com/twf/e/book/consumer/feign/httpclient/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-feign-httpclient/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-feign-log/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-feign-log/src/main/java/com/twf/e/book/consumer/feign/log/ConsumerFeignLogApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-feign-log/src/main/java/com/twf/e/book/consumer/feign/log/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-feign-log/src/main/java/com/twf/e/book/consumer/feign/log/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-feign-log/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-feign-log/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-feign-param/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-feign-param/src/main/java/com/twf/e/book/consumer/feign/param/ConsumerFeignParamApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-feign-param/src/main/java/com/twf/e/book/consumer/feign/param/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-feign-param/src/main/java/com/twf/e/book/consumer/feign/param/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-feign-param/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-feign-ribbon/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-feign-ribbon/src/main/java/com/twf/e/book/consumer/feign/ribbon/ConsumerFeignRibbonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-feign-ribbon/src/main/java/com/twf/e/book/consumer/feign/ribbon/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-feign-ribbon/src/main/java/com/twf/e/book/consumer/feign/ribbon/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-feign-ribbon/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-feign-ribbon/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-feign/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-feign/src/main/java/com/twf/e/book/consumer/feign/ConsumerFeignApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-feign/src/main/java/com/twf/e/book/consumer/feign/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-feign/src/main/java/com/twf/e/book/consumer/feign/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-feign/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-gzip/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-gzip/src/main/java/com/twf/e/book/consumer/gzip/ConsumerFeignGzipApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-gzip/src/main/java/com/twf/e/book/consumer/gzip/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-gzip/src/main/java/com/twf/e/book/consumer/gzip/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-gzip/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-dashboard/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-dashboard/src/main/java/com/twf/e/book/consumer/hystrix/dashboard/HystrixDashBoardApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-dashboard/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-dashboard/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-feign-factory/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-feign-factory/src/main/java/com/twf/e/book/consumer/hystrix/feign/factory/ConsumerFeignFactoryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-feign-factory/src/main/java/com/twf/e/book/consumer/hystrix/feign/factory/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-feign-factory/src/main/java/com/twf/e/book/consumer/hystrix/feign/factory/hystrix/ProductServiceFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-feign-factory/src/main/java/com/twf/e/book/consumer/hystrix/feign/factory/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-feign-factory/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-feign-factory/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-feign-fallback/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-feign-fallback/src/main/java/com/twf/e/book/consumer/hystrix/feign/fallback/ConsumerFeignFallbackApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-feign-fallback/src/main/java/com/twf/e/book/consumer/hystrix/feign/fallback/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-feign-fallback/src/main/java/com/twf/e/book/consumer/hystrix/feign/fallback/hystrix/ProductServiceFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-feign-fallback/src/main/java/com/twf/e/book/consumer/hystrix/feign/fallback/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-feign-fallback/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-feign-fallback/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-batch/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-batch/src/main/java/com/twf/e/book/consumer/hystrix/ribbon/batch/ConsumerHystrixRibbonBatchApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-batch/src/main/java/com/twf/e/book/consumer/hystrix/ribbon/batch/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-batch/src/main/java/com/twf/e/book/consumer/hystrix/ribbon/batch/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-batch/src/main/java/com/twf/e/book/consumer/hystrix/ribbon/batch/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-batch/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-batch/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-breaker/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-breaker/src/main/java/com/twf/e/book/consumer/hystrix/ribbon/breaker/ConsumerHystrixRibbonBreakerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-breaker/src/main/java/com/twf/e/book/consumer/hystrix/ribbon/breaker/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-breaker/src/main/java/com/twf/e/book/consumer/hystrix/ribbon/breaker/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-breaker/src/main/java/com/twf/e/book/consumer/hystrix/ribbon/breaker/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-breaker/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-breaker/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-cache/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-cache/src/main/java/com/twf/e/book/consumer/hystrix/ribbon/cache/ConsumerHystrixRibbonCacheApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-cache/src/main/java/com/twf/e/book/consumer/hystrix/ribbon/cache/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-cache/src/main/java/com/twf/e/book/consumer/hystrix/ribbon/cache/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-cache/src/main/java/com/twf/e/book/consumer/hystrix/ribbon/cache/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-cache/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-cache/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-fallback/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-fallback/src/main/java/com/twf/e/book/consumer/hystrix/ribbon/fallback/ConsumerHystrixRibbonFallbackApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-fallback/src/main/java/com/twf/e/book/consumer/hystrix/ribbon/fallback/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-fallback/src/main/java/com/twf/e/book/consumer/hystrix/ribbon/fallback/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-fallback/src/main/java/com/twf/e/book/consumer/hystrix/ribbon/fallback/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-fallback/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-fallback/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-semaphore/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-semaphore/src/main/java/com/twf/e/book/consumer/hystrix/ribbon/semaphore/ConsumerHystrixRibbonThreadPoolApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-semaphore/src/main/java/com/twf/e/book/consumer/hystrix/ribbon/semaphore/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-semaphore/src/main/java/com/twf/e/book/consumer/hystrix/ribbon/semaphore/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-semaphore/src/main/java/com/twf/e/book/consumer/hystrix/ribbon/semaphore/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-semaphore/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-semaphore/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-threadpool-mq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-threadpool-mq/src/main/java/com/twf/e/book/consumer/hystrix/ribbon/threadpool/mq/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-threadpool-mq/src/main/java/com/twf/e/book/consumer/hystrix/ribbon/threadpool/mq/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-threadpool-mq/src/main/java/com/twf/e/book/consumer/hystrix/ribbon/threadpool/mq/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-threadpool-mq/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-threadpool-mq/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-threadpool/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-threadpool/src/main/java/com/twf/e/book/consumer/hystrix/ribbon/threadpool/ConsumerHystrixRibbonThreadPoolApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-threadpool/src/main/java/com/twf/e/book/consumer/hystrix/ribbon/threadpool/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-threadpool/src/main/java/com/twf/e/book/consumer/hystrix/ribbon/threadpool/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-threadpool/src/main/java/com/twf/e/book/consumer/hystrix/ribbon/threadpool/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-threadpool/src/mian/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-ribbon-threadpool/src/mian/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-turbine-mq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-turbine-mq/src/main/java/com/twf/e/book/consumer/hystrix/turbine/mq/HystrixTurbineMqApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-turbine-mq/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-turbine-mq/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-turbine/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-turbine/src/main/java/com/twf/e/book/consumer/hystrix/turbine/HystrixTurbineApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-turbine/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/e-book-consumer-hystrix-turbine/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/e-book-consumer-hystrix/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-order/e-book-order-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-order/e-book-order-api/src/main/java/com/twf/e/book/order/api/domain/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-order/e-book-order-api/src/main/java/com/twf/e/book/order/api/facade/OrderFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-order/e-book-order-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-order/e-book-order-core/src/main/java/com/twf/e/book/order/core/OrderCoreApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-order/e-book-order-core/src/main/java/com/twf/e/book/order/core/facade/OrderFacadeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-order/e-book-order-core/src/main/java/com/twf/e/book/order/core/persistence/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-order/e-book-order-core/src/main/java/com/twf/e/book/order/core/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-order/e-book-order-core/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-order/e-book-order-core/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-order/e-book-order-core/src/main/resources/mybatis/com/twf/book/order/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-product/e-book-product-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-product/e-book-product-api/src/main/java/com/twf/e/book/product/api/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-product/e-book-product-api/src/main/java/com/twf/e/book/product/api/facade/ProductFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-product/e-book-product-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-product/e-book-product-core/src/main/java/com/twf/e/book/product/core/ProductCoreApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-product/e-book-product-core/src/main/java/com/twf/e/book/product/core/facade/ProductFacadeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-product/e-book-product-core/src/main/java/com/twf/e/book/product/core/persistence/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-product/e-book-product-core/src/main/java/com/twf/e/book/product/core/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-product/e-book-product-core/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-product/e-book-product-core/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-product/e-book-product-core/src/main/resources/mybatis/com/twf/book/product/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-product/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-trader/e-book-trader-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-trader/e-book-trader-api/src/main/java/com/twf/e/book/trader/api/domain/Trader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-trader/e-book-trader-api/src/main/java/com/twf/e/book/trader/api/facade/TraderFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-trader/e-book-trader-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-trader/e-book-trader-core/src/main/java/com/twf/e/book/trader/core/TraderCoreApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-trader/e-book-trader-core/src/main/java/com/twf/e/book/trader/core/facade/TraderFacadeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-trader/e-book-trader-core/src/main/java/com/twf/e/book/trader/core/persistence/TraderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-trader/e-book-trader-core/src/main/java/com/twf/e/book/trader/core/service/OrderService1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-trader/e-book-trader-core/src/main/java/com/twf/e/book/trader/core/service/TraderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-trader/e-book-trader-core/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-trader/e-book-trader-core/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-trader/e-book-trader-core/src/main/resources/mybatis/com/twf/book/trader/TraderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-trader/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-user/e-book-user-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-user/e-book-user-api/src/main/java/com/twf/e/book/user/api/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-user/e-book-user-api/src/main/java/com/twf/e/book/user/api/facade/UsertFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-user/e-book-user-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-user/e-book-user-core/src/main/java/com/twf/e/book/user/core/UserCoreApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-user/e-book-user-core/src/main/java/com/twf/e/book/user/core/facade/UserFacadeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-user/e-book-user-core/src/main/java/com/twf/e/book/user/core/persistence/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-user/e-book-user-core/src/main/java/com/twf/e/book/user/core/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-user/e-book-user-core/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-user/e-book-user-core/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-user/e-book-user-core/src/main/resources/mybatis/com/twf/book/user/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/e-book-user/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-consumer/src/main/java/com/twf/sleuth/consumer/SleuthConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-consumer/src/main/java/com/twf/sleuth/consumer/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-consumer/src/main/java/com/twf/sleuth/consumer/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-consumer/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-elk-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-elk-consumer/src/main/java/com/twf/sleuth/elk/consumer/SleuthELKConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-elk-consumer/src/main/java/com/twf/sleuth/elk/consumer/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-elk-consumer/src/main/java/com/twf/sleuth/elk/consumer/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-elk-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-elk-consumer/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-elk-product/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-elk-product/sleuth-elk-product-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-elk-product/sleuth-elk-product-api/src/main/java/com/twf/sleuth/elk/product/api/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-elk-product/sleuth-elk-product-api/src/main/java/com/twf/sleuth/elk/product/api/facade/ProductFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-elk-product/sleuth-elk-product-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-elk-product/sleuth-elk-product-core/src/main/java/com/twf/sleuth/elk/product/core/SleuthELKProductCoreApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-elk-product/sleuth-elk-product-core/src/main/java/com/twf/sleuth/elk/product/core/facade/ProductFacadeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-elk-product/sleuth-elk-product-core/src/main/java/com/twf/sleuth/elk/product/core/persistence/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-elk-product/sleuth-elk-product-core/src/main/java/com/twf/sleuth/elk/product/core/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-elk-product/sleuth-elk-product-core/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-elk-product/sleuth-elk-product-core/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-elk-product/sleuth-elk-product-core/src/main/resources/mybatis/com/twf/book/product/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-product/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-product/sleuth-product-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-product/sleuth-product-api/src/main/java/com/twf/sleuth/product/api/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-product/sleuth-product-api/src/main/java/com/twf/sleuth/product/api/facade/ProductFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-product/sleuth-product-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-product/sleuth-product-core/src/main/java/com/twf/sleuth/product/core/SleuthProductCoreApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-product/sleuth-product-core/src/main/java/com/twf/sleuth/product/core/facade/ProductFacadeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-product/sleuth-product-core/src/main/java/com/twf/sleuth/product/core/persistence/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-product/sleuth-product-core/src/main/java/com/twf/sleuth/product/core/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-product/sleuth-product-core/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-product/sleuth-product-core/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-product/sleuth-product-core/src/main/resources/mybatis/com/twf/book/product/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-consumer/src/main/java/com/twf/sleuth/zipkin/consumer/SleuthZipkinConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-consumer/src/main/java/com/twf/sleuth/zipkin/consumer/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-consumer/src/main/java/com/twf/sleuth/zipkin/consumer/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-consumer/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-mq-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-mq-consumer/src/main/java/com/twf/sleuth/zipkin/mq/consumer/SleuthZipkinMQConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-mq-consumer/src/main/java/com/twf/sleuth/zipkin/mq/consumer/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-mq-consumer/src/main/java/com/twf/sleuth/zipkin/mq/consumer/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-mq-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-mq-consumer/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-mq-product/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-mq-product/sleuth-zipkin-mq-product-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-mq-product/sleuth-zipkin-mq-product-api/src/main/java/com/twf/sleuth/zipkin/mq/product/api/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-mq-product/sleuth-zipkin-mq-product-api/src/main/java/com/twf/sleuth/zipkin/mq/product/api/facade/ProductFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-mq-product/sleuth-zipkin-mq-product-api/src/test/java/com/twf/sleuth/zipkin/mq/product/api/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-mq-product/sleuth-zipkin-mq-product-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-mq-product/sleuth-zipkin-mq-product-core/src/main/java/com/twf/sleuth/zipkin/mq/product/core/SleuthZipkinMQProductCoreApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-mq-product/sleuth-zipkin-mq-product-core/src/main/java/com/twf/sleuth/zipkin/mq/product/core/facade/ProductFacadeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-mq-product/sleuth-zipkin-mq-product-core/src/main/java/com/twf/sleuth/zipkin/mq/product/core/persistence/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-mq-product/sleuth-zipkin-mq-product-core/src/main/java/com/twf/sleuth/zipkin/mq/product/core/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-mq-product/sleuth-zipkin-mq-product-core/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-mq-product/sleuth-zipkin-mq-product-core/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-mq-product/sleuth-zipkin-mq-product-core/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-mq-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-mq-server/src/main/java/com/twf/sleuth/zipkin/mq/server/ZipkinMQApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-mq-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-mq-server/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-mysql-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-mysql-server/src/main/java/com/twf/sleuth/zipkin/mysql/server/ZipkinMysqlApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-mysql-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-mysql-server/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-product/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-product/sleuth-zipkin-product-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-product/sleuth-zipkin-product-api/src/main/java/com/twf/sleuth/zipkin/product/api/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-product/sleuth-zipkin-product-api/src/main/java/com/twf/sleuth/zipkin/product/api/facade/ProductFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-product/sleuth-zipkin-product-core/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-product/sleuth-zipkin-product-core/src/main/java/com/twf/sleuth/zipkin/product/core/SleuthZipkinProductCoreApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-product/sleuth-zipkin-product-core/src/main/java/com/twf/sleuth/zipkin/product/core/facade/ProductFacadeImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-product/sleuth-zipkin-product-core/src/main/java/com/twf/sleuth/zipkin/product/core/persistence/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-product/sleuth-zipkin-product-core/src/main/java/com/twf/sleuth/zipkin/product/core/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-product/sleuth-zipkin-product-core/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-product/sleuth-zipkin-product-core/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-product/sleuth-zipkin-product-core/src/main/resources/mapper/ProductMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-server/src/main/java/com/twf/sleuth/zipkin/server/ZipkinApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/sleuth/sleuth-zipkin-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-group-receiver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-group-receiver/src/main/java/com/twf/stream/group/receiver/IReceiverService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-group-receiver/src/main/java/com/twf/stream/group/receiver/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-group-receiver/src/main/java/com/twf/stream/group/receiver/ReceiverServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-group-receiver/src/main/java/com/twf/stream/group/receiver/StreamGroupReceiverApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-group-receiver/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-group-receiver/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-group-receiver2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-group-receiver2/src/main/java/com/twf/stream/group/receiver2/IReceiverService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-group-receiver2/src/main/java/com/twf/stream/group/receiver2/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-group-receiver2/src/main/java/com/twf/stream/group/receiver2/ReceiverServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-group-receiver2/src/main/java/com/twf/stream/group/receiver2/StreamGroupReceiver2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-group-receiver2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-group-receiver2/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-group-sender/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-group-sender/src/main/java/com/twf/stream/group/sender/ISenderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-group-sender/src/main/java/com/twf/stream/group/sender/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-group-sender/src/main/java/com/twf/stream/group/sender/StreamGroupSenderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-group-sender/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-group-sender/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-group-sender/src/test/java/com/twf/stream/group/sender/StreamSenderApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-partition-receiver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-partition-receiver/src/main/java/com/twf/stream/partition/receiver/IReceiverService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-partition-receiver/src/main/java/com/twf/stream/partition/receiver/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-partition-receiver/src/main/java/com/twf/stream/partition/receiver/ReceiverServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-partition-receiver/src/main/java/com/twf/stream/partition/receiver/StreamPartitionReceiverApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-partition-receiver/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-partition-receiver/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-partition-receiver2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-partition-receiver2/src/main/java/com/twf/stream/partition/receiver2/IReceiverService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-partition-receiver2/src/main/java/com/twf/stream/partition/receiver2/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-partition-receiver2/src/main/java/com/twf/stream/partition/receiver2/ReceiverServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-partition-receiver2/src/main/java/com/twf/stream/partition/receiver2/StreamPartitionReceiver2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-partition-receiver2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-partition-receiver2/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-partition-sender/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-partition-sender/src/main/java/com/twf/stream/partition/sender/ISenderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-partition-sender/src/main/java/com/twf/stream/partition/sender/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-partition-sender/src/main/java/com/twf/stream/partition/sender/StreamPartitionSenderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-partition-sender/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-partition-sender/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-partition-sender/src/test/java/com/twf/stream/partition/sender/StreamSenderApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-receiver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-receiver/src/main/java/com/twf/stream/receiver/IReceiverService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-receiver/src/main/java/com/twf/stream/receiver/ReceiverServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-receiver/src/main/java/com/twf/stream/receiver/StreamReceiverApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-receiver/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-receiver/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-receiver2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-receiver2/src/main/java/com/twf/stream/receiver2/IReceiverService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-receiver2/src/main/java/com/twf/stream/receiver2/ReceiverServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-receiver2/src/main/java/com/twf/stream/receiver2/StreamReceiver2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-receiver2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-receiver2/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-sender/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-sender/src/main/java/com/twf/stream/sender/ISenderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-sender/src/main/java/com/twf/stream/sender/StreamSenderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-sender/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-sender/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/stream/stream-sender/src/test/com/twf/stream/sender/StreamSenderApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-fallback/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-fallback/src/main/java/com/twf/zuul/gateway/fallback/ZuulFallbackApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-fallback/src/main/java/com/twf/zuul/gateway/fallback/fallback/ProductFallbackProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-fallback/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-fallback/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-filter-exception/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-filter-exception/src/main/java/com/twf/zuul/gateway/filter/exception/ZuulFilterExceptionApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-filter-exception/src/main/java/com/twf/zuul/gateway/filter/exception/filter/AccessFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-filter-exception/src/main/java/com/twf/zuul/gateway/filter/exception/filter/ErrorFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-filter-exception/src/main/java/com/twf/zuul/gateway/filter/exception/filter/ErrorGatewayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-filter-exception/src/main/java/com/twf/zuul/gateway/filter/exception/filter/PostFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-filter-exception/src/main/java/com/twf/zuul/gateway/filter/exception/filter/TestPreFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-filter-exception/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-filter-exception/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-filter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-filter/src/main/java/com/twf/zuul/gateway/filter/ZuulFilterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-filter/src/main/java/com/twf/zuul/gateway/filter/filter/LogFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-filter/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-filter/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-ratelimit/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-ratelimit/src/main/java/com/twf/zuul/gateway/ratelimit/ZuulRateLimitApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-ratelimit/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-ratelimit/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-route/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-route/src/main/java/com/twf/zuul/gateway/route/ZuulRouteApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-route/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-route/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-timeout/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-timeout/src/main/java/com/twf/zuul/gateway/timeout/ZuulTimeoutApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-timeout/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway-timeout/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway/src/main/java/com/twf/zuul/gateway/ZuulApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/e-book/zuul/zuul-gateway/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-consumer-Lb/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-consumer-Lb/src/main/java/com/twf/eureka/consumer/Lb/ConsumerLbApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-consumer-Lb/src/main/java/com/twf/eureka/consumer/Lb/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-consumer-Lb/src/main/java/com/twf/eureka/consumer/Lb/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-consumer-Lb/src/main/java/com/twf/eureka/consumer/Lb/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-consumer-Lb/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-consumer-remove-eureka/.settings/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-consumer-remove-eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-consumer-remove-eureka/src/main/java/com/twf/eureka/consumer/remove/eureka/ConsumerRemoveEurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-consumer-remove-eureka/src/main/java/com/twf/eureka/consumer/remove/eureka/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-consumer-remove-eureka/src/main/java/com/twf/eureka/consumer/remove/eureka/domian/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-consumer-remove-eureka/src/main/java/com/twf/eureka/consumer/remove/eureka/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-consumer-remove-eureka/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-consumer/src/main/java/com/twf/eureka/consumer/ConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-consumer/src/main/java/com/twf/eureka/consumer/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-consumer/src/main/java/com/twf/eureka/consumer/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-consumer/src/main/java/com/twf/eureka/consumer/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-consumer/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-provider-duo-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-provider-duo-server/src/main/java/com/twf/eureka/provider/duo/server/ProviderDuoServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-provider-duo-server/src/main/java/com/twf/eureka/provider/duo/server/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-provider-duo-server/src/main/java/com/twf/eureka/provider/duo/server/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-provider-duo-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-provider/src/main/java/com/twf/eureka/provider/ProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-provider/src/main/java/com/twf/eureka/provider/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-provider/src/main/java/com/twf/eureka/provider/domain/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-provider/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-provider/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-provider/src/test/java/com/twf/eureka/provider/HttpClientUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-server-ha/doc/server.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-server-ha/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-server-ha/src/main/java/com/twf/eureka/server/ha/EurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-server-ha/src/main/resources/application-eureka1.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-server-ha/src/main/resources/application-eureka2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-server-ha/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-server/src/main/java/com/twf/eureka/server/EurekaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-server/src/main/resources/application.properties.temp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/eureka-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-ack-direct-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-ack-direct-consumer/src/main/java/com/twf/rabbit/ErrorReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-ack-direct-consumer/src/main/java/com/twf/rabbit/InfoReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-ack-direct-consumer/src/main/java/com/twf/rabbit/RabbitMqHelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-ack-direct-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-ack-direct-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-ack-direct-provider/src/main/java/com/twf/rabbit/RabbitMqHelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-ack-direct-provider/src/main/java/com/twf/rabbit/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-ack-direct-provider/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-ack-direct-provider/src/test/java/com/twf/rabbit/RabbitMqHelloApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-direct-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-direct-consumer/src/main/java/com/twf/rabbit/ErrorReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-direct-consumer/src/main/java/com/twf/rabbit/InfoReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-direct-consumer/src/main/java/com/twf/rabbit/RabbitMqHelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-direct-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-direct-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-direct-provider/src/main/java/com/twf/rabbit/RabbitMqHelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-direct-provider/src/main/java/com/twf/rabbit/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-direct-provider/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-direct-provider/src/test/java/com/twf/rabbit/RabbitMqHelloApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-durable-direct-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-durable-direct-consumer/src/main/java/com/twf/rabbit/ErrorReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-durable-direct-consumer/src/main/java/com/twf/rabbit/InfoReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-durable-direct-consumer/src/main/java/com/twf/rabbit/RabbitMqHelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-durable-direct-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-durable-direct-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-durable-direct-provider/src/main/java/com/twf/rabbit/RabbitMqHelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-durable-direct-provider/src/main/java/com/twf/rabbit/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-durable-direct-provider/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-direct/rabbit-mq-durable-direct-provider/src/test/java/com/twf/rabbit/RabbitMqHelloApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-fanout/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-fanout/rabbit-mq-fanout-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-fanout/rabbit-mq-fanout-consumer/src/main/java/com/twf/rabbit/PushReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-fanout/rabbit-mq-fanout-consumer/src/main/java/com/twf/rabbit/RabbitMqHelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-fanout/rabbit-mq-fanout-consumer/src/main/java/com/twf/rabbit/RedReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-fanout/rabbit-mq-fanout-consumer/src/main/java/com/twf/rabbit/SmsReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-fanout/rabbit-mq-fanout-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-fanout/rabbit-mq-fanout-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-fanout/rabbit-mq-fanout-provider/src/main/java/com/twf/rabbit/RabbitMqHelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-fanout/rabbit-mq-fanout-provider/src/main/java/com/twf/rabbit/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-fanout/rabbit-mq-fanout-provider/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-fanout/rabbit-mq-fanout-provider/src/test/java/com/twf/rabbit/RabbitMqHelloApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-hello/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-hello/src/main/java/com/twf/rabbit/RabbitMqHelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-hello/src/main/java/com/twf/rabbit/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-hello/src/main/java/com/twf/rabbit/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-hello/src/main/java/com/twf/rabbit/SenderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-hello/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-hello/src/test/java/com/twf/rabbit/RabbitMqHelloApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbit-mq-topic-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbit-mq-topic-consumer/src/main/java/com/twf/rabbit/ErrorReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbit-mq-topic-consumer/src/main/java/com/twf/rabbit/InfoReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbit-mq-topic-consumer/src/main/java/com/twf/rabbit/LogReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbit-mq-topic-consumer/src/main/java/com/twf/rabbit/RabbitMqHelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbit-mq-topic-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbit-mq-topic-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbit-mq-topic-provider/src/main/java/com/twf/rabbit/OrderSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbit-mq-topic-provider/src/main/java/com/twf/rabbit/ProductSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbit-mq-topic-provider/src/main/java/com/twf/rabbit/RabbitMqHelloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbit-mq-topic-provider/src/main/java/com/twf/rabbit/UserSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbit-mq-topic-provider/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbit-mq/rabbit-mq-topic/rabbit-mq-topic-provider/src/test/java/com/twf/rabbit/RabbitMqHelloApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/springboot-helloworld/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/springboot-helloworld/src/main/java/com/twf/springboot/helloworld/HelloworldApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/springboot-helloworld/src/main/java/com/twf/springboot/helloworld/controller/HelloWorldController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/springboot-helloworld/src/main/java/com/twf/springboot/helloworld/exception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/springboot-helloworld/src/main/java/com/twf/springboot/helloworld/exception/MyControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/springboot-helloworld/src/main/resources/application-dev.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/springboot-helloworld/src/main/resources/application-test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/springboot-helloworld/src/main/resources/application.properties.temp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/springboot-helloworld/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/springboot-helloworld/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot/springboot-helloworld/src/test/java/com/twf/springboot/springboothelloworld/HelloworldApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="47be4ccf-56a4-4f2c-9c8c-a3a17557b19c" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Java/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\Java\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Ru4ttEuJSmaMySyZbYVjElzTbK" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="tv.twelvetone.intellij.plugins.intellivue.preferences.IntellivueConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkSpaces\SpringCloud\GitRepository-master\spring-cloud-in-action\eureka\eureka-server\src\main\resources" />
+      <recent name="D:\WorkSpaces\SpringCloud\GitRepository-master\spring-cloud-in-action\eureka\eureka-server\src\main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.HelloworldApplication">
+    <configuration name="ConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.config.client.ConfigClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientRefreshApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-client-refresh" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.config.client.refresh.ConfigClientRefreshApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientRefreshBus2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-client-bus2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.config.client.bus2.ConfigClientRefreshBus2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientRefreshBusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-client-bus" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.config.client.bus.ConfigClientRefreshBusApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigEncryptRsaProductCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-encrypt-rsa-product-core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.config.encrypt.rsa.product.core.ConfigEncryptRsaProductCoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigEncryptSecurityProductCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-encrypt-security-product-core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.config.encrypt.security.product.core.ConfigEncryptSecurityProductCoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigEncryptSymmetricProductCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-encrypt-symmetric-product-core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.config.encrypt.symmetric.product.core.ConfigEncryptSymmetricProductCoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.config.server.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerBusApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-server-bus" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.config.server.bus.ConfigServerBusApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerEncryptRsaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-server-encrypt-rsa" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.config.server.encrypt.rsa.ConfigServerEncryptRsaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerEncryptSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-server-encrypt-security" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.config.server.encrypt.security.ConfigServerEncryptSecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerEncryptSymmetricApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-server-encrypt-symmetric" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.config.server.encrypt.symmetric.ConfigServerEncryptSymmetricApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.eureka.consumer.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-book-consumer-feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.e.book.consumer.feign.ConsumerFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerFeignFactoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-book-consumer-hystrix-feign-factory" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.e.book.consumer.hystrix.feign.factory.ConsumerFeignFactoryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerFeignFallbackApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-book-consumer-hystrix-feign-fallback" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.e.book.consumer.hystrix.feign.fallback.ConsumerFeignFallbackApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerFeignGzipApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-book-consumer-gzip" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.e.book.consumer.gzip.ConsumerFeignGzipApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerFeignHttpclientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-book-consumer-feign-httpclient" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.e.book.consumer.feign.httpclient.ConsumerFeignHttpclientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerFeignLogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-book-consumer-feign-log" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.e.book.consumer.feign.log.ConsumerFeignLogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerFeignParamApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-book-consumer-feign-param" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.e.book.consumer.feign.param.ConsumerFeignParamApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerFeignRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-book-consumer-feign-ribbon" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.e.book.consumer.feign.ribbon.ConsumerFeignRibbonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerHystrixRibbonBatchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-book-consumer-hystrix-ribbon-batch" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.e.book.consumer.hystrix.ribbon.batch.ConsumerHystrixRibbonBatchApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerHystrixRibbonBreakerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-book-consumer-hystrix-ribbon-breaker" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.e.book.consumer.hystrix.ribbon.breaker.ConsumerHystrixRibbonBreakerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerHystrixRibbonCacheApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-book-consumer-hystrix-ribbon-cache" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.e.book.consumer.hystrix.ribbon.cache.ConsumerHystrixRibbonCacheApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerHystrixRibbonFallbackApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-book-consumer-hystrix-ribbon-fallback" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.e.book.consumer.hystrix.ribbon.fallback.ConsumerHystrixRibbonFallbackApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerHystrixRibbonThreadPoolApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-book-consumer-hystrix-ribbon-semaphore" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.e.book.consumer.hystrix.ribbon.semaphore.ConsumerHystrixRibbonThreadPoolApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerHystrixRibbonThreadPoolApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-book-consumer-hystrix-ribbon-threadpool" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.e.book.consumer.hystrix.ribbon.threadpool.ConsumerHystrixRibbonThreadPoolApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerHystrixRibbonThreadPoolMqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-book-consumer-hystrix-ribbon-threadpool-mq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.e.book.consumer.hystrix.ribbon.threadpool.mq.ConsumerHystrixRibbonThreadPoolMqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerLbApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-consumer-Lb" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.eureka.consumer.Lb.ConsumerLbApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-book-consumer-order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.e.book.consumer.order.ConsumerOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerRemoveEurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-consumer-remove-eureka" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.eureka.consumer.remove.eureka.ConsumerRemoveEurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server-ha" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.eureka.server.ha.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.eureka.server.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloworldApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-helloworld" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.springboot.helloworld.HelloworldApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixDashBoardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-book-consumer-hystrix-dashboard" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.e.book.consumer.hystrix.dashboard.HystrixDashBoardApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixTurbineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-book-consumer-hystrix-turbine" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.e.book.consumer.hystrix.turbine.HystrixTurbineApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HystrixTurbineMqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-book-consumer-hystrix-turbine-mq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.e.book.consumer.hystrix.turbine.mq.HystrixTurbineMqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-book-order-core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.e.book.order.core.OrderCoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-book-product-core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.e.book.product.core.ProductCoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.eureka.provider.ProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderDuoServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-provider-duo-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.eureka.provider.duo.server.ProviderDuoServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitMqHelloApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbit-mq-hello" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.rabbit.RabbitMqHelloApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SleuthConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sleuth-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.sleuth.consumer.SleuthConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SleuthELKConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sleuth-elk-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.sleuth.elk.consumer.SleuthELKConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SleuthELKProductCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sleuth-elk-product-core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.sleuth.elk.product.core.SleuthELKProductCoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SleuthProductCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sleuth-product-core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.sleuth.product.core.SleuthProductCoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SleuthZipkinConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sleuth-zipkin-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.sleuth.zipkin.consumer.SleuthZipkinConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SleuthZipkinMQConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sleuth-zipkin-mq-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.sleuth.zipkin.mq.consumer.SleuthZipkinMQConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SleuthZipkinMQProductCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sleuth-zipkin-mq-product-core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.sleuth.zipkin.mq.product.core.SleuthZipkinMQProductCoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SleuthZipkinProductCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sleuth-zipkin-product-core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.sleuth.zipkin.product.core.SleuthZipkinProductCoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamGroupReceiver2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="stream-group-receiver2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.stream.group.receiver2.StreamGroupReceiver2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamGroupReceiverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="stream-group-receiver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.stream.group.receiver.StreamGroupReceiverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamGroupSenderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="stream-group-sender" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.stream.group.sender.StreamGroupSenderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamPartitionReceiver2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="stream-partition-receiver2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.stream.partition.receiver2.StreamPartitionReceiver2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamPartitionReceiverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="stream-partition-receiver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.stream.partition.receiver.StreamPartitionReceiverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamPartitionSenderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="stream-partition-sender" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.stream.partition.sender.StreamPartitionSenderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamReceiver2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="stream-receiver2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.stream.receiver2.StreamReceiver2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamReceiverApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="stream-receiver" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.stream.receiver.StreamReceiverApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamSenderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="stream-sender" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.stream.sender.StreamSenderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TraderCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-book-trader-core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.e.book.trader.core.TraderCoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="e-book-user-core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.e.book.user.core.UserCoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZipkinApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sleuth-zipkin-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.sleuth.zipkin.server.ZipkinApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZipkinMQApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sleuth-zipkin-mq-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.sleuth.zipkin.mq.server.ZipkinMQApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZipkinMysqlApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sleuth-zipkin-mysql-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.sleuth.zipkin.mysql.server.ZipkinMysqlApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuul-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.zuul.gateway.ZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulFallbackApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuul-gateway-fallback" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.zuul.gateway.fallback.ZuulFallbackApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulFilterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuul-gateway-filter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.zuul.gateway.filter.ZuulFilterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulFilterExceptionApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuul-gateway-filter-exception" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.zuul.gateway.filter.exception.ZuulFilterExceptionApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulRateLimitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuul-gateway-ratelimit" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.zuul.gateway.ratelimit.ZuulRateLimitApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulRouteApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuul-gateway-route" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.zuul.gateway.route.ZuulRouteApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulTimeoutApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="zuul-gateway-timeout" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.twf.zuul.gateway.timeout.ZuulTimeoutApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <option name="contentProportion" value="0.13166144" />
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@515df637" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@515df637" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@705bdd58" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\yan_wenlong\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca498687-fc23-4a3c-b814-1e6b691921db" name="Default Changelist" comment="" />
+      <created>1570503864964</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570503864964</updated>
+      <workItem from="1570503869993" duration="5121000" />
+      <workItem from="1570759539057" duration="3635000" />
+      <workItem from="1570842493197" duration="233000" />
+      <workItem from="1571034677712" duration="8937000" />
+      <workItem from="1571102523364" duration="4165000" />
+      <workItem from="1571122416485" duration="243000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

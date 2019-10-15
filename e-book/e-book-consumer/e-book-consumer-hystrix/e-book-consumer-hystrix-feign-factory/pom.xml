@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.twf.springcloud</groupId>
+    <artifactId>e-book-consumer-hystrix</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>e-book-consumer-hystrix-feign-factory</artifactId>
+  <name>e-book-consumer-hystrix-feign-factory</name>
+
+  <dependencies>
+	<dependency>
+		<groupId>${project.parent.groupId}</groupId>
+		<artifactId>e-book-product-api</artifactId>
+		<version>${project.parent.version}</version>
+	</dependency>
+  </dependencies>
+
+</project>

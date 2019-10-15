@@ -1,0 +1,32 @@
+# 默认的profile为dev，其他环境通过指定启动参数使用不同的profile，比如：
+#   测试环境：java -jar test-service.jar --spring.profiles.active=test
+#   生产环境：java -jar test-service.jar --spring.profiles.active=prod
+
+# 1，普通配置
+server:
+   port: 9090
+# 随机端口配置
+#server.port=${random.int[1024,9999]}
+
+spring:
+   application:
+      name: springboot-helloworld
+   profiles:
+      active: dev #默认环境(开发环境)
+
+# 2，自定义属性配置
+twf:
+   msg: "hello,spring boot!"
+   param1: hello,white cloud
+   param2: hello,blue sky,${twf.param1}
+   number: ${random.int}
+   param3: random number is ${twf.number}
+
+
+logging:
+   level:
+      org:
+         springframework:
+            boot:
+               autoconfigure: ERROR
+

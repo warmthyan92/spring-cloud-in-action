@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sleuth-elk-consumer" />
+        <module name="rabbit-mq-hello" />
+        <module name="sleuth-zipkin-consumer" />
+        <module name="commons" />
+        <module name="e-book-consumer-order" />
+        <module name="stream-partition-sender" />
+        <module name="rabbit-mq-direct-consumer" />
+        <module name="zuul-gateway-filter-exception" />
+        <module name="sleuth-product-api" />
+        <module name="e-book-consumer-hystrix-feign-fallback" />
+        <module name="stream-group-receiver2" />
+        <module name="config-server-encrypt-security" />
+        <module name="e-book-product-api" />
+        <module name="e-book-consumer-feign" />
+        <module name="rabbit-mq-ack-direct-provider" />
+        <module name="eureka-consumer-Lb" />
+        <module name="e-book-consumer-hystrix-ribbon-threadpool" />
+        <module name="sleuth-elk-product-api" />
+        <module name="eureka-server-ha" />
+        <module name="e-book-consumer-feign-param" />
+        <module name="e-book-consumer-hystrix-turbine-mq" />
+        <module name="e-book-user-core" />
+        <module name="rabbit-mq-topic-provider" />
+        <module name="config-encrypt-rsa-product-core" />
+        <module name="stream-group-sender" />
+        <module name="e-book-product-core" />
+        <module name="zuul-gateway-fallback" />
+        <module name="eureka-provider-duo-server" />
+        <module name="config-server-bus" />
+        <module name="e-book-consumer-hystrix-ribbon-fallback" />
+        <module name="sleuth-zipkin-mq-product-core" />
+        <module name="springboot-helloworld" />
+        <module name="config-client-bus2" />
+        <module name="zuul-gateway-route" />
+        <module name="e-book-consumer-feign-log" />
+        <module name="sleuth-zipkin-mq-server" />
+        <module name="rabbit-mq-ack-direct-consumer" />
+        <module name="config-server-encrypt-symmetric" />
+        <module name="e-book-consumer-hystrix-ribbon-threadpool-mq" />
+        <module name="rabbit-mq-fanout-provider" />
+        <module name="e-book-consumer-hystrix-feign-factory" />
+        <module name="stream-receiver" />
+        <module name="zuul-gateway-filter" />
+        <module name="sleuth-consumer" />
+        <module name="eureka-provider" />
+        <module name="sleuth-elk-product-core" />
+        <module name="zuul-gateway" />
+        <module name="sleuth-product-core" />
+        <module name="e-book-consumer-hystrix-turbine" />
+        <module name="e-book-consumer-hystrix-ribbon-semaphore" />
+        <module name="config-client-refresh" />
+        <module name="e-book-user-api" />
+        <module name="sleuth-zipkin-product-core" />
+        <module name="rabbit-mq-fanout-consumer" />
+        <module name="sleuth-zipkin-product-api" />
+        <module name="e-book-trader-core" />
+        <module name="e-book-order-api" />
+        <module name="stream-sender" />
+        <module name="stream-group-receiver" />
+        <module name="sleuth-zipkin-mq-product-api" />
+        <module name="eureka-consumer" />
+        <module name="config-server" />
+        <module name="stream-partition-receiver" />
+        <module name="zuul-gateway-timeout" />
+        <module name="e-book-consumer-gzip" />
+        <module name="e-book-consumer-feign-ribbon" />
+        <module name="sleuth-zipkin-mysql-server" />
+        <module name="rabbit-mq-durable-direct-consumer" />
+        <module name="e-book-consumer-hystrix-ribbon-breaker" />
+        <module name="sleuth-zipkin-mq-consumer" />
+        <module name="stream-partition-receiver2" />
+        <module name="e-book-trader-api" />
+        <module name="e-book-consumer-hystrix-ribbon-cache" />
+        <module name="sleuth-zipkin-server" />
+        <module name="rabbit-mq-durable-direct-provider" />
+        <module name="rabbit-mq-topic-consumer" />
+        <module name="config-client" />
+        <module name="stream-receiver2" />
+        <module name="rabbit-mq-direct-provider" />
+        <module name="zuul-gateway-ratelimit" />
+        <module name="e-book-consumer-hystrix-dashboard" />
+        <module name="e-book-order-core" />
+        <module name="e-book-consumer-feign-httpclient" />
+        <module name="config-encrypt-symmetric-product-core" />
+        <module name="e-book-consumer-hystrix-ribbon-batch" />
+        <module name="config-server-encrypt-rsa" />
+        <module name="config-client-bus" />
+        <module name="eureka-server" />
+        <module name="config-encrypt-security-product-core" />
+        <module name="eureka-consumer-remove-eureka" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="commons" target="1.8" />
+      <module name="config" target="1.8" />
+      <module name="config-client" target="1.8" />
+      <module name="config-client-bus" target="1.8" />
+      <module name="config-client-bus2" target="1.8" />
+      <module name="config-client-refresh" target="1.8" />
+      <module name="config-encrypt-rsa-product-core" target="1.8" />
+      <module name="config-encrypt-security-product-core" target="1.8" />
+      <module name="config-encrypt-symmetric-product-core" target="1.8" />
+      <module name="config-server" target="1.8" />
+      <module name="config-server-bus" target="1.8" />
+      <module name="config-server-encrypt-rsa" target="1.8" />
+      <module name="config-server-encrypt-security" target="1.8" />
+      <module name="config-server-encrypt-symmetric" target="1.8" />
+      <module name="e-book" target="1.8" />
+      <module name="e-book-consumer" target="1.8" />
+      <module name="e-book-consumer-feign" target="1.8" />
+      <module name="e-book-consumer-feign-httpclient" target="1.8" />
+      <module name="e-book-consumer-feign-log" target="1.8" />
+      <module name="e-book-consumer-feign-param" target="1.8" />
+      <module name="e-book-consumer-feign-ribbon" target="1.8" />
+      <module name="e-book-consumer-gzip" target="1.8" />
+      <module name="e-book-consumer-hystrix" target="1.8" />
+      <module name="e-book-consumer-hystrix-dashboard" target="1.8" />
+      <module name="e-book-consumer-hystrix-feign-factory" target="1.8" />
+      <module name="e-book-consumer-hystrix-feign-fallback" target="1.8" />
+      <module name="e-book-consumer-hystrix-ribbon-batch" target="1.8" />
+      <module name="e-book-consumer-hystrix-ribbon-breaker" target="1.8" />
+      <module name="e-book-consumer-hystrix-ribbon-cache" target="1.8" />
+      <module name="e-book-consumer-hystrix-ribbon-fallback" target="1.8" />
+      <module name="e-book-consumer-hystrix-ribbon-semaphore" target="1.8" />
+      <module name="e-book-consumer-hystrix-ribbon-threadpool" target="1.8" />
+      <module name="e-book-consumer-hystrix-ribbon-threadpool-mq" target="1.8" />
+      <module name="e-book-consumer-hystrix-turbine" target="1.8" />
+      <module name="e-book-consumer-hystrix-turbine-mq" target="1.8" />
+      <module name="e-book-consumer-order" target="1.8" />
+      <module name="e-book-order" target="1.8" />
+      <module name="e-book-order-api" target="1.8" />
+      <module name="e-book-order-core" target="1.8" />
+      <module name="e-book-product" target="1.8" />
+      <module name="e-book-product-api" target="1.8" />
+      <module name="e-book-product-core" target="1.8" />
+      <module name="e-book-trader" target="1.8" />
+      <module name="e-book-trader-api" target="1.8" />
+      <module name="e-book-trader-core" target="1.8" />
+      <module name="e-book-user" target="1.8" />
+      <module name="e-book-user-api" target="1.8" />
+      <module name="e-book-user-core" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="eureka-consumer" target="1.8" />
+      <module name="eureka-consumer-Lb" target="1.8" />
+      <module name="eureka-consumer-remove-eureka" target="1.8" />
+      <module name="eureka-provider" target="1.8" />
+      <module name="eureka-provider-duo-server" target="1.8" />
+      <module name="eureka-server" target="1.8" />
+      <module name="eureka-server-ha" target="1.8" />
+      <module name="rabbit-mq" target="1.8" />
+      <module name="rabbit-mq-ack-direct-consumer" target="1.8" />
+      <module name="rabbit-mq-ack-direct-provider" target="1.8" />
+      <module name="rabbit-mq-direct" target="1.8" />
+      <module name="rabbit-mq-direct-consumer" target="1.8" />
+      <module name="rabbit-mq-direct-provider" target="1.8" />
+      <module name="rabbit-mq-durable-direct-consumer" target="1.8" />
+      <module name="rabbit-mq-durable-direct-provider" target="1.8" />
+      <module name="rabbit-mq-fanout" target="1.8" />
+      <module name="rabbit-mq-fanout-consumer" target="1.8" />
+      <module name="rabbit-mq-fanout-provider" target="1.8" />
+      <module name="rabbit-mq-hello" target="1.8" />
+      <module name="rabbit-mq-topic" target="1.8" />
+      <module name="rabbit-mq-topic-consumer" target="1.8" />
+      <module name="rabbit-mq-topic-provider" target="1.8" />
+      <module name="sleuth" target="1.8" />
+      <module name="sleuth-consumer" target="1.8" />
+      <module name="sleuth-elk-consumer" target="1.8" />
+      <module name="sleuth-elk-product" target="1.8" />
+      <module name="sleuth-elk-product-api" target="1.8" />
+      <module name="sleuth-elk-product-core" target="1.8" />
+      <module name="sleuth-product" target="1.8" />
+      <module name="sleuth-product-api" target="1.8" />
+      <module name="sleuth-product-core" target="1.8" />
+      <module name="sleuth-zipkin-consumer" target="1.8" />
+      <module name="sleuth-zipkin-mq-consumer" target="1.8" />
+      <module name="sleuth-zipkin-mq-product" target="1.8" />
+      <module name="sleuth-zipkin-mq-product-api" target="1.8" />
+      <module name="sleuth-zipkin-mq-product-core" target="1.8" />
+      <module name="sleuth-zipkin-mq-server" target="1.8" />
+      <module name="sleuth-zipkin-mysql-server" target="1.8" />
+      <module name="sleuth-zipkin-product" target="1.8" />
+      <module name="sleuth-zipkin-product-api" target="1.8" />
+      <module name="sleuth-zipkin-product-core" target="1.8" />
+      <module name="sleuth-zipkin-server" target="1.8" />
+      <module name="spring-cloud-in-action" target="1.8" />
+      <module name="springboot" target="1.8" />
+      <module name="springboot-helloworld" target="1.8" />
+      <module name="stream" target="1.8" />
+      <module name="stream-group-receiver" target="1.8" />
+      <module name="stream-group-receiver2" target="1.8" />
+      <module name="stream-group-sender" target="1.8" />
+      <module name="stream-partition-receiver" target="1.8" />
+      <module name="stream-partition-receiver2" target="1.8" />
+      <module name="stream-partition-sender" target="1.8" />
+      <module name="stream-receiver" target="1.8" />
+      <module name="stream-receiver2" target="1.8" />
+      <module name="stream-sender" target="1.8" />
+      <module name="zuul" target="1.8" />
+      <module name="zuul-gateway" target="1.8" />
+      <module name="zuul-gateway-fallback" target="1.8" />
+      <module name="zuul-gateway-filter" target="1.8" />
+      <module name="zuul-gateway-filter-exception" target="1.8" />
+      <module name="zuul-gateway-ratelimit" target="1.8" />
+      <module name="zuul-gateway-route" target="1.8" />
+      <module name="zuul-gateway-timeout" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="commons" options="-parameters" />
+      <module name="config-client" options="-parameters" />
+      <module name="config-client-bus" options="-parameters" />
+      <module name="config-client-bus2" options="-parameters" />
+      <module name="config-client-refresh" options="-parameters" />
+      <module name="config-encrypt-rsa-product-core" options="-parameters" />
+      <module name="config-encrypt-security-product-core" options="-parameters" />
+      <module name="config-encrypt-symmetric-product-core" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="config-server-bus" options="-parameters" />
+      <module name="config-server-encrypt-rsa" options="-parameters" />
+      <module name="config-server-encrypt-security" options="-parameters" />
+      <module name="config-server-encrypt-symmetric" options="-parameters" />
+      <module name="e-book-consumer-feign" options="-parameters" />
+      <module name="e-book-consumer-feign-httpclient" options="-parameters" />
+      <module name="e-book-consumer-feign-log" options="-parameters" />
+      <module name="e-book-consumer-feign-param" options="-parameters" />
+      <module name="e-book-consumer-feign-ribbon" options="-parameters" />
+      <module name="e-book-consumer-gzip" options="-parameters" />
+      <module name="e-book-consumer-hystrix-dashboard" options="-parameters" />
+      <module name="e-book-consumer-hystrix-feign-factory" options="-parameters" />
+      <module name="e-book-consumer-hystrix-feign-fallback" options="-parameters" />
+      <module name="e-book-consumer-hystrix-ribbon-batch" options="-parameters" />
+      <module name="e-book-consumer-hystrix-ribbon-breaker" options="-parameters" />
+      <module name="e-book-consumer-hystrix-ribbon-cache" options="-parameters" />
+      <module name="e-book-consumer-hystrix-ribbon-fallback" options="-parameters" />
+      <module name="e-book-consumer-hystrix-ribbon-semaphore" options="-parameters" />
+      <module name="e-book-consumer-hystrix-ribbon-threadpool" options="-parameters" />
+      <module name="e-book-consumer-hystrix-ribbon-threadpool-mq" options="-parameters" />
+      <module name="e-book-consumer-hystrix-turbine" options="-parameters" />
+      <module name="e-book-consumer-hystrix-turbine-mq" options="-parameters" />
+      <module name="e-book-consumer-order" options="-parameters" />
+      <module name="e-book-order-core" options="-parameters" />
+      <module name="e-book-product-api" options="-parameters" />
+      <module name="e-book-product-core" options="-parameters" />
+      <module name="e-book-trader-core" options="-parameters" />
+      <module name="e-book-user-api" options="-parameters" />
+      <module name="e-book-user-core" options="-parameters" />
+      <module name="eureka-consumer" options="-parameters" />
+      <module name="eureka-consumer-Lb" options="-parameters" />
+      <module name="eureka-consumer-remove-eureka" options="-parameters" />
+      <module name="eureka-provider" options="-parameters" />
+      <module name="eureka-provider-duo-server" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="eureka-server-ha" options="-parameters" />
+      <module name="rabbit-mq-ack-direct-consumer" options="-parameters" />
+      <module name="rabbit-mq-ack-direct-provider" options="-parameters" />
+      <module name="rabbit-mq-direct-consumer" options="-parameters" />
+      <module name="rabbit-mq-direct-provider" options="-parameters" />
+      <module name="rabbit-mq-durable-direct-consumer" options="-parameters" />
+      <module name="rabbit-mq-durable-direct-provider" options="-parameters" />
+      <module name="rabbit-mq-fanout-consumer" options="-parameters" />
+      <module name="rabbit-mq-fanout-provider" options="-parameters" />
+      <module name="rabbit-mq-topic-consumer" options="-parameters" />
+      <module name="rabbit-mq-topic-provider" options="-parameters" />
+      <module name="sleuth-consumer" options="-parameters" />
+      <module name="sleuth-elk-consumer" options="-parameters" />
+      <module name="sleuth-elk-product-api" options="-parameters" />
+      <module name="sleuth-elk-product-core" options="-parameters" />
+      <module name="sleuth-product-api" options="-parameters" />
+      <module name="sleuth-product-core" options="-parameters" />
+      <module name="sleuth-zipkin-consumer" options="-parameters" />
+      <module name="sleuth-zipkin-mq-consumer" options="-parameters" />
+      <module name="sleuth-zipkin-mq-product-api" options="-parameters" />
+      <module name="sleuth-zipkin-mq-product-core" options="-parameters" />
+      <module name="sleuth-zipkin-product-api" options="-parameters" />
+      <module name="sleuth-zipkin-product-core" options="-parameters" />
+      <module name="springboot-helloworld" options="-parameters" />
+      <module name="stream-group-receiver" options="-parameters" />
+      <module name="stream-group-receiver2" options="-parameters" />
+      <module name="stream-group-sender" options="-parameters" />
+      <module name="stream-partition-receiver" options="-parameters" />
+      <module name="stream-partition-receiver2" options="-parameters" />
+      <module name="stream-partition-sender" options="-parameters" />
+      <module name="stream-receiver" options="-parameters" />
+      <module name="stream-receiver2" options="-parameters" />
+      <module name="stream-sender" options="-parameters" />
+      <module name="zuul-gateway" options="-parameters" />
+      <module name="zuul-gateway-fallback" options="-parameters" />
+      <module name="zuul-gateway-filter" options="-parameters" />
+      <module name="zuul-gateway-filter-exception" options="-parameters" />
+      <module name="zuul-gateway-ratelimit" options="-parameters" />
+      <module name="zuul-gateway-route" options="-parameters" />
+      <module name="zuul-gateway-timeout" options="-parameters" />
+    </option>
+  </component>
+</project>
